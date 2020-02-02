@@ -8,9 +8,3 @@ def my_each(array)
 
 end
 
-def my_each(array)
-  
-  my_each(words) do |word|
-    puts "#{word}"
-  end
-end

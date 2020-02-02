@@ -5,9 +5,12 @@ def my_each(array)
     i = i + 1 
   end
   array
+
+end
+
+def my_each(array)
   
   my_each(words) do |word|
     puts "#{word}"
   end
 end
-

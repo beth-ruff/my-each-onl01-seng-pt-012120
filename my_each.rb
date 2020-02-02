@@ -5,5 +5,7 @@ def my_each(array)
     i = i + 1 
   end
   array
+  
+  my_each(words) do 
 end
 

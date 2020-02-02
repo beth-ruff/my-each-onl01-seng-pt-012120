@@ -6,6 +6,8 @@ def my_each(array)
   end
   array
   
-  my_each(words) do 
+  my_each(words) do |word|
+    puts "#{word}"
+  end
 end
 
